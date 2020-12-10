@@ -1,12 +1,25 @@
-Kaggle dataset FlightPrice dataset
+##End to End Flask web application that predicts the price of Flight given the details of the Fly.
+Deployed to Heroku.##
 
-Regression Problem
+- https://flightprice111.herokuapp.com/predict
 
-Exploratory Data Analysis
+- Kaggle dataset FlightPrice dataset
 
-Fit model using Random Forest 
+- Regression Problem
 
-Hyper Parameter Tuning using RandomizedSearchCV
+- Exploratory Data Analysis
 
-Save to Pickle
+- Fit model using Random Forest 
+
+- Hyper Parameter Tuning using RandomizedSearchCV
+      - Accuracy score of 79.8 %
+
+- Save to Pickle
+
+- Create a Flask Application for providing Users an interface to enter Details
+
+- The Application, loads the model from the pickle file 
+    - and returns Fight Ticket's predicted price.
+
+- Deployed to Heroku
 
