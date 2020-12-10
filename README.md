@@ -23,3 +23,17 @@ Deployed to Heroku.##
 
 - Deployed to Heroku
 
+- Step followed in deploying Flask app to Heroku
+    - Create a new folder (FlightPrice) and copy all the application files there
+    - Create Procfile, requirements.txt files in the same folder
+    - Install Heroku CLI.
+    - In command prompt login by entering heroku login 
+    - cd to FlightPrice folder
+    - git init
+    - git add .
+    - (can check the remote using)  git remote -v
+    - git commit -m "Initial push of Flight Price Predictor flask app code to Heroku"
+    - heroku create flightprice111
+    - git push heroku master
+    - Verifying deploy... done. To https://git.heroku.com/flightprice111.git
+    
