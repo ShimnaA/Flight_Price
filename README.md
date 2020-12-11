@@ -1,5 +1,5 @@
-##End to End Flask web application that predicts the price of Flight given the details of the Fly.
-Deployed to Heroku.##
+**End to End Flask web application that predicts the price of Flight given the details of the Fly.
+Deployed to Heroku.**
 
 - https://flightprice111.herokuapp.com/predict
 
